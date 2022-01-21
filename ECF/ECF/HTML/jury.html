@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>BBiBlio</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="title_logo">
+                <h1>BBIBLIO</h1>
+                <img src="/IMG/logo.png" alt="logo" class="logo">
+            </div>
+         <!-- /* /////////////////////////NAVBAR ////////////////////////////  */ -->
+        
+         <!-- /* /////////////////////////NAVBAR ////////////////////////////  */ -->
+            <div class="dropdown">
+                <ol class="navbar">
+                   
+                        <li>
+                            <a href="index.html">Public</a>
+                        </li>
+                        <div class="dropdown-content"> 
+                            <ul>
+                                <a href="historique_gg.html"  class="nav">
+                                    <li>Historique des prix</li>
+                                </a>
+                                <a href="reglement.html"  class="nav">
+                                    <li>Règlement</li>
+                                </a>
+                            </ul>
+                     </div>
+
+                    <li>
+                        <a href="jury.html">Jury</a>
+                    </li>
+                    <li> 
+                        <a href="auteur_editeur.html">Auteurs / Editeurs</a>
+                    </li>
+                    <li>
+                        <a href="connexion.html">Connexion</a>
+                    </li>
+                   
+                </ol>
+            </div>
+        </div>
+    </header>
+<main>
+    <p class="aNoter">Livres à lire puis noter</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom de l'oeuvre</th>
+                <th>Date de sortie</th>
+                <th>Auteur</th>
+                <th>Catégorie</th>
+                <th>Notes</th>
+                <th>Télécharger</th>
+
+            </tr>
+        </thead>
+        <tr>
+            <td>L'ile mysterieuse</td>
+            <td>1875</td>
+            <td> Jules VERNE</td>
+            <td>Meilleur roman français</td>
+            <td id="value_ile">X / 10</td>
+            <th class="no">
+                <a href="https://beq.ebooksgratuits.com/vents/Verne-ile.pdf">
+                    <img src="/IMG/download.png" alt="icon" class="icon">
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <td>Ca</td>
+            <td>1986</td>
+            <td>Stephen King</td>
+            <td>Meilleur roman étranger</td>
+            <td id="value_ca">X / 10</td>
+            <th class="no">
+                <a href="http://hullofromlabry.free.fr/Ebooks/CA_S_King_storming/CA_Vol1_STEPHEN_KING.pdf">
+                    <img src="/IMG/download.png" alt="icon" class="icon">
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <td>La ligne verte</td>
+            <td>1986</td>
+            <td>Stephen King</td>
+            <td>Meilleur documentaire</td>
+            <td id="value_verte">X / 10</td>
+            <th class="no">
+                <a href="http://ekladata.com/GmWOi6cvbrYUeg7uvCY_4I9yxlA/La-ligne-verte.pdf">
+                    <img src="/IMG/download.png" alt="icon" class="icon">
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <td>Autobiographie d'une courgette</td>
+            <td>1986</td>
+            <td>Stephen King</td>
+            <td>Meilleur biographie</td>
+            <td id="value_courgette">X / 10</td>
+            <th class="no">
+                <a href="https://flipbook.cantook.net/?d=%2F%2Fwww.edenlivres.fr%2Fflipbook%2Fpublications%2F27108.js&oid=224&c=&m=&l=fr&r=&f=pdf">
+                    <img src="/IMG/download.png" alt="icon" class="icon">
+                </a>
+            </th>
+        </tr>
+    </table>
+    <form action="">
+        <div class="drop">
+            <select name="vote" id="vote" >
+                <option value="" id="">Quel livre notez-vous ?</option>
+                <option value="" id="ile_mystere">L'ile mysterieuse</option>
+                <option value="" id="ca">Ca</option>
+                <option value="" id="ligne_verte">La ligne verte</option>
+                <option value="" id="courgette">Autobiographie d'une courgette</option>
+            </select>
+        </div>
+        <div class="style">
+            <p class="cat2">Style</p>
+            <select name="style" id="a">
+                <option value="1" id="style">1</option>
+                <option value="2" id="style">2</option>
+                <option value="3" id="style">3</option>
+                <option value="4" id="style">4</option>
+                <option value="5" id="style">5</option>
+                <option value="6" id="style">6</option>
+                <option value="7" id="style">7</option>
+                <option value="8" id="style">8</option>
+                <option value="9" id="style">9</option>
+                <option value="10"id="style">10</option>
+            </select>
+        </div>  
+        <div class="style">
+            <p class="cat2">Illustrations</p>
+            <input type="radio" id="illu" name="illustration" value="1" >1
+            <input type="radio" id="illu" name="illustration" value="2" >2
+            <input type="radio" id="illu" name="illustration" value="3" >3
+            <input type="radio" id="illu" name="illustration" value="4" >4
+            <input type="radio" id="illu" name="illustration" value="5" >5
+            <input type="radio" id="illu" name="illustration" value="6" >6
+            <input type="radio" id="illu" name="illustration" value="7" >7
+            <input type="radio" id="illu" name="illustration" value="8" >8
+            <input type="radio" id="illu" name="illustration" value="9" >9
+            <input type="radio" id="illu" name="illustration" value="10">10
+        </div>
+        <div class="style">
+            <p class="cat2">Mise en page</p>
+            <input type="radio" id="mp" name="page" value="1" >1
+            <input type="radio" id="mp" name="page" value="2" >2
+            <input type="radio" id="mp" name="page" value="3" >3
+            <input type="radio" id="mp" name="page" value="4" >4
+            <input type="radio" id="mp" name="page" value="5" >5
+            <input type="radio" id="mp" name="page" value="6" >6
+            <input type="radio" id="mp" name="page" value="7" >7
+            <input type="radio" id="mp" name="page" value="8" >8
+            <input type="radio" id="mp" name="page" value="9" >9
+            <input type="radio" id="mp" name="page" value="10">10
+        </div>
+        <div class="style">
+            <p class="cat2">Emotions</p>
+            <input type="radio" id="emo" name="emotions" value="1" >1
+            <input type="radio" id="emo" name="emotions" value="2" >2
+            <input type="radio" id="emo" name="emotions" value="3" >3
+            <input type="radio" id="emo" name="emotions" value="4" >4
+            <input type="radio" id="emo" name="emotions" value="5" >5
+            <input type="radio" id="emo" name="emotions" value="6" >6
+            <input type="radio" id="emo" name="emotions" value="7" >7
+            <input type="radio" id="emo" name="emotions" value="8" >8
+            <input type="radio" id="emo" name="emotions" value="9" >9
+            <input type="radio" id="emo" name="emotions" value="10">10
+        </div>
+
+        <input type="submit" class="subs">
+
+    </form>
+</main>
+
+
+
+
+
+
+    
+    <footer>
+        <div class="BB">
+            <h2>BBiblio</h2>
+            <img src="/IMG/logo.png" alt="logo">
+        </div>
+
+        <div >
+            <ol>
+                <li class="list">
+                    <a href="historique_gg.html">Historique des prix</a>
+                </li>
+                <li class="list">
+                    <a href="reglement.html">Règlement</a>
+                </li>
+                <li class="list">
+                    <a href="livres_noter.html">Livres à noter</a>
+                </li>
+                <li class="list">
+                    <a href="jury.html">Jury</a>
+                </li>
+                <li class="list">
+                    <a href="auteur_editeur.html">Auteurs / Editeurs</a>
+                </li>
+                <li class="list">
+                    <a href="connexion.html">Connexion</a>
+                </li>
+            </ol>
+        </div>
+
+        <div >
+            <a href="https://www.facebook.com/">
+                <img src="/IMG/icon_fb.png" alt="LOGO FB" class="icon">
+            </a>
+            <a href="https://www.instagram.com/?hl=fr">
+                <img src="/IMG/icon_insta.jfif" alt="LOGO INSTA" class="icon">
+            </a>
+            <a href="https://twitter.com/?lang=fr">
+                <img src="/IMG/icon_twitter.png" alt="LOGO TWITTER" class="icon">
+            </a>
+        </div>
+
+    </footer>
+
+<script src="/JS/jury_votes.js"></script>
+</body>
+</html>

@@ -1,0 +1,418 @@
+body{
+    margin: 0;
+}
+footer{
+    background-color:  rgba(255, 174, 0, 0.89);
+    padding-left: 25%;
+    padding-right: 25%;
+    height: 300px;
+}
+a{
+    /* text-decoration: none; */
+    color: black;
+}
+
+.BB{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.list{
+    width: 33%;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    float: left;
+    text-align: center;
+}
+.icon{
+    float: right;
+    height: 50px;
+    padding: 10px;
+}
+/* // MAINN INDEX */
+.mn{
+    height: 1520px;
+}
+/* // MAINN INDEX */
+
+/* /////////////////////////HEADER////////////////////////////  */
+header{
+    background-color: rgba(255, 174, 0, 0.89);
+    /* display: block; */
+}
+body{
+    background-color: grey;
+}
+header div{
+    display: flex;
+    justify-content: center;
+}
+.title_logo{
+    margin-right: 200px;
+}
+.logo{
+    height: 90px;
+    margin-left: 10px;
+}
+.nav{
+    display: block;
+}
+.navbar{
+    list-style-type: none;
+    /* margin-top: 35px; */
+}
+
+li{
+    display: inline;
+    padding: 15px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+li :hover{
+    color: pink;
+}
+
+/* ///////////////////////// DEBUT DROPDOWN ////////////////////////////  */
+.btnAuteur{
+    margin-right: 210px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: table-row;
+  }
+li:hover{
+    color: rgb(0, 253, 240);
+}
+/* ///////////////////////// FIN DROPDOWN ////////////////////////////  */
+
+
+/* ///////////////////////// FIN HEADER ////////////////////////////  */
+
+
+main{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1%;
+}
+
+
+/* ///////////////////////// DEBUT LIGNE 1 (LIVRES & TXT ) ////////////////////////////  */
+.premiereLigne{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ileMystere{
+    height: 450px;
+    width: 400px;
+    float: left;
+}
+.imgCa{
+    float: right;
+    height: 450px;
+    width: 400px;
+}
+.txtLivreUn{
+    width:50%;
+    float: left;
+    text-align: center;
+    height: 95px;
+        
+}
+.txtLivreDeux{
+    width:50%;
+    float: right;
+    text-align: center;
+    height: 95px;
+}
+/* ///////////////////////// FIN LIGNE 1 (LIVRES & TXT ) ////////////////////////////  */
+
+/* ///////////////////////// DEBUT LIGNE 2 (LIVRES & TXT ) ////////////////////////////  */
+.secondeLigne{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.imgLigneVerte{
+    float: left; 
+    height: 450px;
+    width: 400px;
+    margin-top: 100px;
+}
+.imgLivreCourgette{
+    float: right; 
+    height: 450px;
+    width: 400px;
+    margin-top: 100px;
+}
+/* ///////////////////////// FIN LIGNE 2 (LIVRES & TXT ) ////////////////////////////  */
+
+
+/* ///////////////////////// DEBUT FORM JURE/AUTEURS/EDITEURS  ////////////////////////////  */
+.formJury{
+    margin-top: 80px;
+    margin-left: 25%;
+    float: left;
+    text-align: center;
+}
+.formAuteur{
+    margin-top: 50px;
+    margin-left: 22%;
+    margin-bottom: 5%;
+    float: left;
+}
+.inputAuteur{
+    float: left;
+    margin-left: 150px;
+}
+.btnAuteur{
+    margin-left: 7px;
+}
+/* ///////////////////////// FIN FORM JURE/AUTEURS/EDITEURS  ////////////////////////////  */
+
+
+/* ///////////////////////////////////DEBUT PAGE REGLEMENT ///////////////////////////////////*/
+.regMain{
+    border: 1px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 21px;
+
+}
+.reglement{
+    text-align: center;
+}
+/* ///////////////////////////////////FIN PAGE REGLEMENT ///////////////////////////////////*/
+
+
+/* ///////////////////////////////////DEBUT PAGE HISTORIQUE GG ///////////////////////////////////*/
+.GG{
+    padding-left    :300px ; 
+    padding-right   :300px ; 
+}
+.btn_cc{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+}
+.livre1{
+    width: min-content;
+    margin: 0px;
+    float: right;
+}
+.livre2{
+    width: min-content;
+    margin-top: 0px;
+    float: right;
+}
+.livre3{
+    width: min-content;
+    margin: 0px;
+    float: right;
+}
+.livre4{
+    width: min-content;
+    margin: 0px;
+    float: right;
+}
+.imgIle{
+    height: 500px;
+    width: 324px;
+}
+.imgCa2{
+    height: 500px;
+    width: 324px;
+}
+.imgLigne{
+    height: 500px;
+    width: 324px;
+}
+.imgCourgette{
+    height: 500px;
+    width: 324px;
+}
+
+.allGG{
+    display: inline-block;
+    text-align: center;
+
+}
+.e{
+    
+    display: none;
+    visibility: hidden;
+}
+
+/* ///////////////////////////////////FIN  PAGE HISTORIQUE GG ///////////////////////////////////*/
+
+/* //////////////////////////////////DEBUT PAGE CONNEXION EMAIL///////////////////////////////////*/
+.idJury{
+    text-align: center;
+    border: 1px solid black;
+    max-width: auto;
+    padding-bottom: 21px;
+    margin-bottom: 21px;
+}
+.idJury p {
+    font-size: 29px;
+    font-weight: bold;
+}
+/* //////////////////////////////////FIN  PAGE CONNEXION  EMAIL///////////////////////////////////*/
+
+
+/* //////////////////////////////////DEBUT PAGE JURY_CHANGE_ID ///////////////////////////////////*/
+.co{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.imgVide{
+    height: 250px;
+    width: 250px;
+}
+.file{
+    padding-left: 30px;
+}
+.L1{
+    padding-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.sub{
+    margin-left: 30px;
+}
+
+/* //////////////////////////////////FIN PAGE JURY_CHANGE_ID ///////////////////////////////////*/
+
+
+/* //////////////////////////////////DEBUT PAGE LIVRES_NOTER ///////////////////////////////////*/
+/* //////////////////////////////////DEBUT TABLEAU A LUIRE PUIS NOTER ///////////////////////////////////*/
+
+.aNoter{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
+.aNoterB{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: px;
+    margin-right: 0px;
+}
+.drop{
+    text-align: center;
+    margin-top: 20px;
+}
+table{
+    border-collapse: collapse; 
+    text-align: center;   
+}
+thead{
+    font-size: 28px;
+}
+th{
+    border: 1px solid black;
+    padding: 15px;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+.no{
+    padding-right: 50px;
+}
+/* //////////////////////////////////FIN TABLEAU A LUIRE PUIS NOTER ///////////////////////////////////*/
+.style{
+    font-size: 20px;
+    /* text-align: center; */
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.cat{
+    font-size: 22px;
+    display: inline;
+    /* padding-right: 40px; */
+    border: 1px solid black;
+    width: 50px;
+}
+.cat2{
+    font-size: 22px;
+    display: inline;
+
+    width: 50px;
+}
+.subs{
+    margin-left: 300px;
+    margin-top:20px;
+    padding: 5px;
+    font-size: large;
+}
+
+/* //////////////////////////////////FIN PAGE LIVRES_NOTER ///////////////////////////////////*/
+
+/* //////////////////////////////////DEBUT PAGE AUTEUR EDITEUR ///////////////////////////////////*/
+
+.inscription{
+    text-align: center;
+}
+.inscription p {
+    font-size: 18px;
+}
+.ban{
+    margin-top: 50px;
+}
+.img_ban{
+    height: 168px;
+    width: 314px;
+    margin-bottom: 40px;
+}
+
+/* //////////////////////////////////FIN PAGE AUTEUR EDITEUR ///////////////////////////////////*/
+
+/* //////////////////////////////////DEBUT PAGE CONNEXION ///////////////////////////////////*/
+.main_co_j_a{
+    text-align: center;
+}
+.jure_id{
+    font-size: 30px;
+}
+.form{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border: 1px solid black;
+}
+
+
+
+
+/* //////////////////////////////////FIN PAGE CONNEXION ///////////////////////////////////*/

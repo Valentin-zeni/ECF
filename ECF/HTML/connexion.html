@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>BBiBlio</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="title_logo">
+                <h1>BBIBLIO</h1>
+                <img src="/IMG/logo.png" alt="logo" class="logo">
+            </div>
+         <!-- /* /////////////////////////NAVBAR ////////////////////////////  */ -->
+        
+         <!-- /* /////////////////////////NAVBAR ////////////////////////////  */ -->
+            <div class="dropdown">
+                <ol class="navbar">
+                   
+                        <li>
+                            <a href="index.html">Public</a>
+                        </li>
+                        <div class="dropdown-content"> 
+                            <ul>
+                                <a href="historique_gg.html"  class="nav">
+                                    <li>Historique des prix</li>
+                                </a>
+                                <a href="reglement.html"  class="nav">
+                                    <li>Règlement</li>
+                                </a>
+                            </ul>
+                     </div>
+
+                    <li>
+                        <a href="livres_noter.html">Jury</a>
+                    </li>
+                    <li> 
+                        <a href="auteur_editeur.html">Auteurs / Editeurs</a>
+                    </li>
+                    <li>
+                        <a href="connexion.html">Connexion</a>
+                    </li>
+                   
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <main class="main_co_j_a">
+
+        <form action="connexion.html" class="form">
+            <p class="jure_id">S'identifier en tant que juré</p>
+            <p> Votre clé de connexion : 
+                <input type="text" id="cle_jure">
+            </p>
+            <p> Votre mot de passe :
+                <input type="text" id="pass_jure">
+            </p>
+            <button type="button" id="btn_jure" >Envoyer</button>
+        </form>
+
+        <form action="auteur_editeur.html" class="form">
+            <p class="jure_id">S'identifier en tant qu'auteur / éditeur</p>
+            <p> Votre clé de connexion : 
+                <input type="text" id="cle_auteur">
+            </p>
+            <p> Votre mot de passe :
+                <input type="text">
+            </p>
+            <button type="button" id="btn_auteur" >Envoyer</button>
+        </form>
+
+
+        <p>Vous serez redirigé vers la page correspondate au formulaire de connexion rempli</p>
+
+
+
+    <div class="first_co">
+        <p>Pas de compte encore, créez en un</p>
+        <a href="connexion_email.html">
+            <button> Créer un compte </button>
+        </a>    
+    </div>
+    </main>
+
+
+
+
+    
+    <footer>
+        <div class="BB">
+            <h2>BBiblio</h2>
+            <img src="/IMG/logo.png" alt="logo">
+        </div>
+
+        <div >
+            <ol>
+                <li class="list">
+                    <a href="historique_gg.html">Historique des prix</a>
+                </li>
+                <li class="list">
+                    <a href="reglement.html">Règlement</a>
+                </li>
+                <li class="list">
+                    <a href="jury.html">Jury</a>
+                </li>
+                <li class="list">
+                    <a href="auteur_editeur.html">Auteurs / Editeurs</a>
+                </li>
+                <li class="list">
+                    <a href="connexion.html">Connexion</a>
+                </li>
+            </ol>
+        </div>
+
+        <div >
+            <a href="https://www.facebook.com/">
+                <img src="/IMG/icon_fb.png" alt="LOGO FB" class="icon">
+            </a>
+            <a href="https://www.instagram.com/?hl=fr">
+                <img src="/IMG/icon_insta.jfif" alt="LOGO INSTA" class="icon">
+            </a>
+            <a href="https://twitter.com/?lang=fr">
+                <img src="/IMG/icon_twitter.png" alt="LOGO TWITTER" class="icon">
+            </a>
+        </div>
+
+    </footer>
+
+<script src="/JS/regex_connexion.js"></script>
+</body>
+</html>
